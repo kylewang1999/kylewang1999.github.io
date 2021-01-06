@@ -28,6 +28,7 @@ I'm still shaky on using `git *` commands
 
 ### [Link to my Linked in](https://www.linkedin.com/in/kaiyuan-wang-07b9831a4/)
 ### [Relative Link to a picture of myself](232C92F1-0A6F-4F7A-94F6-1396E02676E9.jpeg)
+### A picture of myself
 ![This is a picture of myself](232C92F1-0A6F-4F7A-94F6-1396E02676E9.jpeg)
 
 
