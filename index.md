@@ -4,6 +4,9 @@
 ## * * This is Italic heading
 ## ~~ ~~ This is strikethroughed heading
 
+[Link to my Linked in](https://www.linkedin.com/in/kaiyuan-wang-07b9831a4/)
+![This is a picture of myself](image.)
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/kylewang1999/kylewang1999.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
