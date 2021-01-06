@@ -4,7 +4,7 @@
 #### *This is Italic heading*
 #### ~~This is strikethroughed heading~~
 
-### `Typing Some Code: `
+### Typing Some Code: 
 `print('Hello World!')`
 
 ### Quoting my fav fitness YouTuber: 
