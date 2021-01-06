@@ -1,11 +1,11 @@
 # Lab1 Part3: Using Markdown
 
-## ** This is bold heading (second largest)
-## * * This is Italic heading
-## ~~ ~~ This is strikethroughed heading
+## ** This is bold heading (second largest) **
+## * * This is Italic heading * *
+## ~~ ~~ This is strikethroughed heading ~~ ~~
 
 [Link to my Linked in](https://www.linkedin.com/in/kaiyuan-wang-07b9831a4/)
-![This is a picture of myself](image.)
+![This is a picture of myself](232C92F1-0A6F-4F7A-94F6-1396E02676E9.jpeg)
 
 ## Welcome to GitHub Pages
 
