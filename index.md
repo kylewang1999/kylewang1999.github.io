@@ -12,7 +12,7 @@ This quarter I'm gonna code
   > "Harder than last time"
 
 ### Quoting some code:
-I'm still shaky on using `git *` commands
+I'm still shaky on using `git *` commands \n
 `git push --push` --> problem solved
 
 ### This section contains a list:
