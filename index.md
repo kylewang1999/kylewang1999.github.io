@@ -1,8 +1,8 @@
 # Lab1 Part3: Using Markdown
 
-## **This is bold heading (second largest)**
-## *This is Italic heading*
-## ~~This is strikethroughed heading~~
+#### **This is bold heading (second largest)**
+#### *This is Italic heading*
+#### ~~This is strikethroughed heading~~
 
 ### `Typing Some Code: `
 `print('Hello World!')`
