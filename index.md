@@ -4,12 +4,19 @@
 ## *This is Italic heading*
 ## ~~This is strikethroughed heading~~
 
+### `Typing Some Code: `
+`print('Hello World!')`
+
 ### Quoting my fav fitness YouTuber: This quarter I'm gonna code 
   > "Harder than last time"
 
 ### Quoting some code:
 #### I'm still shaky on using `git *` commands
 #### `git push --push` --> problem solved
+
+### Section1
+### Section2: Another Section
+### Section3: Yet Another Section
 
 
 ### [Link to my Linked in](https://www.linkedin.com/in/kaiyuan-wang-07b9831a4/)
@@ -18,8 +25,6 @@
 
 
 
-###`Typing Some Code: `
-`print('Hello World!')`
 
 ## Welcome to GitHub Pages
 
