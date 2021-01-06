@@ -11,12 +11,18 @@
   > "Harder than last time"
 
 ### Quoting some code:
-#### I'm still shaky on using `git *` commands
-#### `git push --push` --> problem solved
+I'm still shaky on using `git *` commands
+`git push --push` --> problem solved
 
-### Section1
-### Section2: Another Section
-### Section3: Yet Another Section
+### This section contains a list:
+1. item1
+2. item2
+3. item3
+
+### This section contains another list:
+[x] Todo1
+[ ] Todo2
+[ ] Todo3
 
 
 ### [Link to my Linked in](https://www.linkedin.com/in/kaiyuan-wang-07b9831a4/)
