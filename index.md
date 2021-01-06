@@ -1,3 +1,9 @@
+# Lab1 Part3: Using Markdown
+
+## ** This is bold heading (second largest)
+## * * This is Italic heading
+## ~~ ~~ This is strikethroughed heading
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/kylewang1999/kylewang1999.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
