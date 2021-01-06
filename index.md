@@ -7,7 +7,8 @@
 ### `Typing Some Code: `
 `print('Hello World!')`
 
-### Quoting my fav fitness YouTuber: This quarter I'm gonna code 
+### Quoting my fav fitness YouTuber: 
+This quarter I'm gonna code 
   > "Harder than last time"
 
 ### Quoting some code:
@@ -20,9 +21,9 @@ I'm still shaky on using `git *` commands
 3. item3
 
 ### This section contains another list:
-[x] Todo1
-[ ] Todo2
-[ ] Todo3
+- [x] Todo1
+- [ ] Todo2
+- [ ] Todo3
 
 
 ### [Link to my Linked in](https://www.linkedin.com/in/kaiyuan-wang-07b9831a4/)
