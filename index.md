@@ -4,7 +4,7 @@
 ## *This is Italic heading*
 ## ~~This is strikethroughed heading~~
 
-
+## Quoting my fav fitness YouTuber: I'm gonna code > "Harder than last time"
 
 ### [Link to my Linked in](https://www.linkedin.com/in/kaiyuan-wang-07b9831a4/)
 ### [This is a picture of myself](232C92F1-0A6F-4F7A-94F6-1396E02676E9.jpeg)
