@@ -5,3 +5,40 @@ Template resources: [Academic Pages](https://github.com/academicpages/academicpa
 This website uses the template from [Academic Pages](https://github.com/academicpages/academicpages.github.io).
 
 [README tutorial for Academic Pages](./README_academicpages.md)
+
+**Environment-related tutorials**: [Node js on M1 mac](https://www.jurnalanas.com/node-js-mac-m1/), [Jekyll on M1 Mac](https://www.earthinversion.com/blogging/how-to-install-jekyll-on-appple-m1-macbook/) 
+
+Install Jekyll on M1 Mac;
+
+```bash
+rbenv install 3.0.0     # Install arm-based ruby 3.0.0
+rbenv global 3.0.0
+ruby -v
+rbenv rehash
+
+echo 'eval "$(rbenv init - bash)"' >> ~/.bash_profile   # if using bash
+
+gem install --user-install bundler jekyll
+
+ruby -v     # Check ruby version, substitute in the following line
+echo 'export PATH="/usr/local/opt/ruby/bin:/usr/local/lib/ruby/gems/3.0.0/bin:$PATH"' >> ~/.bash_profile
+
+bundle update --bundler
+bundle add webrick
+bundle install --redownload
+```
+
+Server the website: `bundle exec jekyll liveserve` 
+
+
+
+
+
+
+Export `nvm` ot environment variable:
+
+```bash
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+```
