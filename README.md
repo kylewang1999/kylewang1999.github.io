@@ -9,6 +9,11 @@ Template resources: [Academic Pages](https://github.com/academicpages/academicpa
 
 **Render and serve the website on localhost**: `bundle exec jekyll liveserve` 
 
+## Entry Points
+
+- [Top navigation bar](./_data/navigation.yml): [Teaching](./_teaching/), [CV](./_pages/cv.md), [Publications](./_publications/), [Learn with me](./_learn_with_me)
+- [Home page]()
+
 ## Env Setup
 
 [Node js on M1 mac](https://www.jurnalanas.com/node-js-mac-m1/), [Jekyll on M1 Mac](https://www.earthinversion.com/blogging/how-to-install-jekyll-on-appple-m1-macbook/) 
