@@ -12,7 +12,9 @@ Template resources: [Academic Pages](https://github.com/academicpages/academicpa
 ## Entry Points
 
 - [Top navigation bar](./_data/navigation.yml): [Teaching](./_teaching/), [CV](./_pages/cv.md), [Publications](./_publications/), [Learn with me](./_learn_with_me)
-- [Home page]()
+- [Home page](./_pages/about.md)
+- [Side author bar](./_config.yml)
+- [Footer](./_includes/footer.html)
 
 ## Env Setup
 
