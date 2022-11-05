@@ -57,7 +57,7 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               : &twitter
+  username               : "kaiyuan_w"
 facebook:
   username               :
   app_id                 :
@@ -82,12 +82,11 @@ analytics:
 author:
   name             : "Kaiyuan Wang"
   avatar           : "bio_photo.jpg"
-  bio              : "1st year Master's student @ UCSD"
+  bio              : "Master's student of CSE @ UCSD"
   location         : "La Jolla, CA"
-  employer         :
-  pubmed           : ""
-  googlescholar    : ""
-  email            :
+  employer         : 
+  googlescholar    : 
+  email            : "k5wang@ucsd.edu"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -96,7 +95,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "academicpages"
+  github           : "kylewang1999"
   google_plus      :
   keybase          :
   instagram        :
@@ -109,7 +108,7 @@ author:
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "replacethistwitterhandle"
+  twitter          : "kaiyuan_w"
   vine             :
   weibo            :
   xing             :
