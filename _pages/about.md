@@ -10,7 +10,6 @@ redirect_from:
 
 Thanks for vising my site! 
 
-I am 
 
 ## News (FA22)
 
