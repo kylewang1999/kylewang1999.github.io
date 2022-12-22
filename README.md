@@ -2,14 +2,14 @@
 
 ## Tutorials 
 
-[Building an Academic Website](https://jayrobwilliams.com/posts/2020/06/academic-website/)
+[Building an Academic Website](https://jayrobwilliams.com/posts/2020/06/academic-website/), [Test site locally](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/testing-your-github-pages-site-locally-with-jekyll)
 
 Template resources: [Academic Pages](https://github.com/academicpages/academicpages.github.io), [Weightshift, the personal page](https://github.com/kylewang1999/kylewang1999.github.io.git), [GitPage tutorial](https://pages.github.com/#project-site)
 
 - This website uses the template from [Academic Pages](https://github.com/academicpages/academicpages.github.io).
 - [README: Academic Pages](./README_academicpages.md)
 
-**Render and serve the website on localhost**: `bundle exec jekyll liveserve` 
+**Render and serve the website on localhost**: `bundle exec jekyll serve` 
 
 ## Entry Points
 
@@ -18,12 +18,30 @@ Template resources: [Academic Pages](https://github.com/academicpages/academicpa
 - [Side author bar](./_config.yml)
 - [Footer](./_includes/footer.html)
 
-## Env Setup
+
+---
+## Env Setup 
 
 [Node js on M1 mac](https://www.jurnalanas.com/node-js-mac-m1/), [Jekyll on M1 Mac](https://www.earthinversion.com/blogging/how-to-install-jekyll-on-appple-m1-macbook/) 
 
-Install Jekyll on M1 Mac;
+Install [Jekyll](https://jekyllrb.com/docs/installation/) (Ubuntu).
+```bash
+# Install Ruby and other pre-req
+sudo apt-get install ruby-full build-essential zlib1g-dev # ubuntu
 
+# Avoid installing RubyGem as root. Instead, set up gem install dir for the user.
+# The following adds environment vars to ~/.bashrc to configure gem install path
+echo '# Install Ruby Gems to ~/gems' >> ~/.bashrc
+echo 'export GEM_HOME="$HOME/gems"' >> ~/.bashrc
+echo 'export PATH="$HOME/gems/bin:$PATH"' >> ~/.bashrc
+source ~/.bashrc
+
+# Install Jekyllm Bundler
+gem install jekyll bundler && bundle install 
+```
+
+
+Set up environment (MacOS)
 ```bash
 rbenv install 3.0.0     # Install arm-based ruby 3.0.0
 rbenv global 3.0.0

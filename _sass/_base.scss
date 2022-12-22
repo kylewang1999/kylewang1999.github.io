@@ -79,6 +79,7 @@ del a {
 p, pre, blockquote, ul, ol, dl, figure, table, fieldset {
   orphans: 3;
   widows: 3;
+  overflow-x: auto;
 }
 
 /* abbreviations */
