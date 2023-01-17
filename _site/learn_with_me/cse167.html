@@ -277,21 +277,30 @@
 
       <section class="page__content" itemprop="text">
         
-<p>Follow <a href="https://publish.obsidian.md/cse167/READEME.md">this link</a> to see the notes.</p>
+<h1 id="cse-167-intro-to-computer-graphics">CSE 167: Intro to Computer Graphics</h1>
 
-<p>This collection contains all the notes for CSE167 WI23 taught by professor Ravi Ramamoorthi.</p>
+<p>This ‘vault’ contains all the notes for CSE167 WI23 taught by professor Ravi Ramamoorthi. The notes are originally in <a href="https://obsidian.md">Obsidian</a>-flavored markdown, so the best way to view the notes is using obsidian (using standard markdown viewer might result in mis-rendered figures).</p>
+
+<p><strong>Disclaimer</strong>: The notes are by no means a comprehensive introduction to computer graphics, and it draws heavily from <a href="https://cseweb.ucsd.edu//~viscomp/classes/cse167/wi23/schedule.html">Professor Ravi Ramamoorthi’s lecture slides</a> and <a href="https://docs.google.com/document/d/1EKDmwVcNY_3oonShnv1sMX7cnRCCzoZZ9iebejRWs50/edit">Zane Wang’s lecture note</a>. Therefore, these notes are, at best, a <a href="https://www.scribbr.com/working-with-sources/primary-and-secondary-sources/">secondary source</a>. When in doubt, always consult primary sources like the <a href="http://www.opengl-redbook.com">OpenGL red book</a>,  <a href="https://www.amazon.com/Fundamentals-Computer-Graphics-Steve-Marschner/dp/1482229390">Fundamentals of Computer Graphics</a>, etc.</p>
+
+<h2 id="table-of-content">Table of content</h2>
+
+<ul>
+  <li>Week1 <a href="https://publish.obsidian.md/cse167/ucsd_ms/cse167_note/0_background">Mathematical background</a>: Vector, matrix, coordinate frames</li>
+  <li>Week2 Transformation: Stay tuned …</li>
+</ul>
+
+<h2 id="miscellaneous">Miscellaneous</h2>
 
 <p><strong>Why am I doing this</strong>: I have to confess that I was guilty of doing the following 1) skipping classes because of scheduling conflict (or just because my bed was too comfy) 2) napped during classes because topics progressed with too fast a pace or too little a motivation or just too tired a “me” being an overwhelmed college student. Then I had to painstakingly go back at recordings/slides to piece-up the lecture content, which was not fun because often slides are hard to decipher and recordings are of poor audio/video quality. Hopefully with this series of notes, you don’t need to do the same. (Don’t get me wrong, please go to lectures if possible!).</p>
 
 <p><strong>Goal</strong>: I strive for 2 things - <strong>motivation</strong> and <strong>explanation</strong>.</p>
 <ul>
   <li><strong>Motivation</strong>: I am most likely to fall asleep during a class when I don’t know why I’m learning the concept. Therefore I try to motivate each topic to the best of my ability, so hopefully you can  justify going through the pain of staying up and trying to understand it.</li>
-  <li><strong>Explanation</strong>: Slides are (at least in my opinion) only good for presenters to, well, present the concept. It works terrible for reviewing since lots of logics are only present during the delivery- they are already gone by the time of reviewing. Therefore I try to include as complete a chain of logic as possible, so hopefully you don’t experience this:</li>
-</ul>
-
-\[\begin{align*}
-\text{First 5 minutes: } &amp;y=kx+b\\
-\text{After 1 peek away from blackbord: } &amp;R(w,\phi)=\left[\begin{array}{lll}
+  <li><strong>Explanation</strong>: Slides are (at least in my opinion) only good for presenters to, well, present the concept. It works terrible for reviewing since lots of logics are only present during the delivery- they are already gone by the time of reviewing. Therefore I try to include as complete a chain of logic as possible, so hopefully you don’t experience this:
+\(\begin{align*}
+&amp;\text{First 5 minutes: }\\&amp;\quad y=kx+b\\
+&amp;\text{After 1 peek away from blackbord: } \\&amp;\quad R(w,\phi)=\left[\begin{array}{lll}
 x_u &amp; x_v &amp; x_w \\
 y_u &amp; y_v &amp; y_w \\
 z_u &amp; z_v &amp; z_w
@@ -304,9 +313,8 @@ x_u &amp; y_u &amp; z_u \\
 x_v &amp; y_v &amp; z_v \\
 x_w &amp; y_w &amp; z_w
 \end{array}\right]
-\end{align*}\]
-
-<p><strong>Disclaimer</strong>: The notes are by no means a comprehensive introduction to computer graphics, and it draws heavily from <a href="https://cseweb.ucsd.edu//~viscomp/classes/cse167/wi23/schedule.html">Professor Ravi Ramamoorthi’s lecture slides</a> and <a href="https://docs.google.com/document/d/1EKDmwVcNY_3oonShnv1sMX7cnRCCzoZZ9iebejRWs50/edit">Zane Wang’s lecture note</a>. Therefore, these notes are, at best, a <a href="https://www.scribbr.com/working-with-sources/primary-and-secondary-sources/">secondary source</a>. When in doubt, always consult primary sources like the <a href="http://www.opengl-redbook.com">OpenGL red book</a>,  <a href="https://www.amazon.com/Fundamentals-Computer-Graphics-Steve-Marschner/dp/1482229390">Fundamentals of Computer Graphics</a>, etc.</p>
+\end{align*}\)</li>
+</ul>
 
 <p>Some (sloppy) abbreviations are used throughout to make note-taking easier. Here are some explanations:</p>
 
@@ -353,6 +361,18 @@ x_w &amp; y_w &amp; z_w
     <tr>
       <td>coord.</td>
       <td>Coordinate</td>
+    </tr>
+    <tr>
+      <td>iff</td>
+      <td>If and only if</td>
+    </tr>
+    <tr>
+      <td>$\equiv$</td>
+      <td>Equivalent to</td>
+    </tr>
+    <tr>
+      <td>$\sim$</td>
+      <td>Similar to</td>
     </tr>
   </tbody>
 </table>
@@ -422,7 +442,7 @@ x_w &amp; y_w &amp; z_w
   </ul>
 </div>
 
-<div class="page__footer-copyright">&copy; 2022 Your Name. Powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://github.com/academicpages/academicpages.github.io">AcademicPages</a>, a fork of <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+<div class="page__footer-copyright">&copy; 2023 Your Name. Powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://github.com/academicpages/academicpages.github.io">AcademicPages</a>, a fork of <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
 
       </footer>
     </div>
