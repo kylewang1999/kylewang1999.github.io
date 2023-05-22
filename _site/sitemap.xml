@@ -123,6 +123,9 @@
 <loc>http://localhost:4000/terms/</loc>
 </url>
 <url>
+<loc>http://localhost:4000/transcripts/</loc>
+</url>
+<url>
 <loc>http://localhost:4000/year-archive/</loc>
 </url>
 <url>
@@ -143,6 +146,14 @@
 <url>
 <loc>http://localhost:4000/files/paper3.pdf</loc>
 <lastmod>2022-12-21T17:09:22-08:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/files/transcript_bs.pdf</loc>
+<lastmod>2023-05-21T18:40:54-07:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/files/transcript_ms.pdf</loc>
+<lastmod>2023-05-21T18:40:55-07:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/talkmap/map.html</loc>

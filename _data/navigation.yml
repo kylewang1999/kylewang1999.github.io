@@ -7,6 +7,9 @@ main:
   - title: "Learn with Me"
     url: /learn_with_me/
   
+  # - title: "Transcripts"
+  #   url: /transcripts/
+
   # - title: "Teaching"
   #   url: /teaching/   
 
