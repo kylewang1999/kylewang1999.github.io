@@ -10,7 +10,7 @@ redirect_from:
 
 I'm a researcher-want-to-be, with interest in 2D/3D perception and robotics.
 
-I like to document my studying progress and post my notes. Please see the ['lear with me'](./learn_with_me.md) section for my notes.
+I like to document my studying progress and post my notes. Please see the ['learn with me'](./learn_with_me.md) section for my notes.
 
 ## News 
 
