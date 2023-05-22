@@ -7,12 +7,12 @@ redirect_from:
   - /resume
 ---
 {% include base_path %}
-
-PDF version is available on [LinkedIn](https://www.linkedin.com/in/kaiyuan-wang-07b9831a4/details/featured/1635476512496/single-media-viewer/?profileId=ACoAAC_XiJ8B35G84AI3MslvipbYPqYrnzbZf1Q).
-
-
 ---
 
+<iframe src="../files/Kaiyuan_CV.pdf" width="100%" height="1200px">
+</iframe>
+
+<!-- 
 ## SUMMARY
 
 MSCS at UCSD, previous TA experience in operating systems, with focus on deep learning and computer vision and interest in OS. Applying for Winter 2023 TA positions.
@@ -74,7 +74,7 @@ At UC San Diego
 **Technical Experiences**: Python, Java, C++, System Verilog
 - Python Packages: PyTorch, NumPy, Matplotlib, NLTK, Scikit-learn, Tensorflow, Gensim
 - Other Technologies: Git, Unix, Kubectl
-**Languages**: English, Mandarine
+**Languages**: English, Mandarine -->
 
 
 
