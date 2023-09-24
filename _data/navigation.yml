@@ -6,6 +6,9 @@ main:
     
   - title: "Learn with Me"
     url: /learn_with_me/
+
+  - title: "Fun Stuff"
+    url: /fun_stuff/
   
   # - title: "Transcripts"
   #   url: /transcripts/

@@ -8,22 +8,11 @@ redirect_from:
   - /about.html
 ---
 
-I'm a researcher-want-to-be, with interest in 2D/3D perception and robotics.
+I'm a computer science Master's student at UC San Diego with a specialized focus in computer vision and robotics, applying for PhD positions starting Fall 2024. My ongoing and past projects span topics including deformable tissue tracking, 6 DoF pose estimation, semantic segmentation, GANs, and advanced rendering techniques.
 
 I like to document my studying progress and post my notes. Please see the ['learn with me'](./learn_with_me.md) section for my notes.
 
-## News 
+## Research
 
-Please stay tuned 。。。 😇
-
-
-## Non-academic Aspect
-
-Yes, a CS graduate student can have a life! 
-(except when course gets busy...)
-
-
-<img src="../images/ball_20230206.gif"  width="400">
-
-I'm an active person and a basketball lover. I usually play at either Main Gym or RIMAC in the afternoon: join me and have a couple of nice runs!
+Please stay tuned. 😇
 

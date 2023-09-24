@@ -87,6 +87,9 @@
 <loc>http://localhost:4000/cv/</loc>
 </url>
 <url>
+<loc>http://localhost:4000/fun_stuff/</loc>
+</url>
+<url>
 <loc>http://localhost:4000/learn_with_me/</loc>
 </url>
 <url>
@@ -133,7 +136,7 @@
 </url>
 <url>
 <loc>http://localhost:4000/files/Kaiyuan_CV.pdf</loc>
-<lastmod>2023-05-21T18:05:33-07:00</lastmod>
+<lastmod>2023-09-24T11:57:27-07:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/files/paper1.pdf</loc>
