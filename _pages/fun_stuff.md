@@ -9,6 +9,7 @@ author_profile: true
 ---
 
 I'm a basketball player. Here's a clip of me playing! 💦
+
 <img src="../images/ball_20230206.gif"  width="400">
 
 <!-- A CS graduate student can have a life! (except when course gets busy...) -->
