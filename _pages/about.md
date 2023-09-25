@@ -14,5 +14,7 @@ I like to document my studying progress and post my notes. Please see the ['lear
 
 ## Research
 
+I'm working on improving deformable tissue reconstruction in a[surgical perception framework](https://arxiv.org/abs/1909.05405), aiming for RA-L submission.
+
 Please stay tuned. 😇
 
