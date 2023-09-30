@@ -7,7 +7,7 @@
 Template resources: [Academic Pages](https://github.com/academicpages/academicpages.github.io), [Weightshift, the personal page](https://github.com/kylewang1999/kylewang1999.github.io.git), [GitPage tutorial](https://pages.github.com/#project-site)
 
 - This website uses the template from [Academic Pages](https://github.com/academicpages/academicpages.github.io).
-- [README: Academic Pages](./README_academicpages.md)
+- [README: A/home/kyle/Desktop/kylewang1999.github.io/_publicationscademic Pages](./README_academicpages.md)
 
 **Render and serve the website on localhost**: `bundle exec jekyll serve` 
 

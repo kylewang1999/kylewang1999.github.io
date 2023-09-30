@@ -7,9 +7,10 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Kaiyuan Wang"
+title                    : "Kaiyuan Wang (王恺元)"
 title_separator          : "-"
 name                     : &name "Your Name"
+name_cn                  : &name_cn "Your Name"
 description              : &description "personal description"
 url                      : https://kylewang1999.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -81,6 +82,7 @@ analytics:
 # Site Author
 author:
   name             : "Kaiyuan Wang"
+  name_cn          : "王恺元"
   avatar           : "bio_photo.jpg"
   bio              : "Master's student @ UCSD CSE"
   location         : "La Jolla, CA"
